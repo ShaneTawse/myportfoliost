@@ -1,3 +1,6 @@
-export default function Project(){
-    return <p>Hello World</p>
+export default function Projects(){
+    return <>
+    
+    <h1>Projects</h1>
+    </>
 }

@@ -1,19 +1,20 @@
 import './App.css'
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-
-import MainRouter from './main-router.jsx';
-
+import MainRouter from '../MainRouter.jsx';
 
 
 
-function App() {
+
+const App = () => {
 
 
   return (
    
       <Router>
+
         <MainRouter/>
+
         </Router>
     
   );

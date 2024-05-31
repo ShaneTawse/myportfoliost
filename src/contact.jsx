@@ -1,51 +1,57 @@
+
+import '../src/contact.css'
 export default function Contact(){
     return<>
+
     <main>
     <h1>Contacts Page</h1>
     <p>I'm only an email, phone call or text message away. Lets start a conversation!.  Feel free to contact me for more information</p>
      
         <h2>My Contact and Socials</h2> 
+        <div class="contact-panel" id="contactPanel">
             <p>A list of available contact options. Please take the time and reach out</p>
-            <ul>
-                <li><strong>My Contacts and Socials</strong></li>
-                <li>My Name:  Shane Tawse</li>
-                <li>My Email: shanetawse@msn.com</li>
-                <li>My Phone #: 905-407-6029</li>
-            </ul>
-       
-   
-    <h2>Contact Form</h2>
-    {/* <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="message">Message</label>
-        <input type="textarea" id="message" name="message" required></textarea><br><br>
-        <button type ="submit">Submit</button>
-    </form> */}
+          
+                
+                <p><strong>My Name:</strong>  Shane Tawse</p>
+                <p><strong>My Email:</strong> shanetawse@msn.com</p>
+                <p><strong>My Phone #:</strong> 905-407-6029</p>
+           
+            </div>
     </main>
-    </>
-}
-
-{/* <p>Contact</p>
-<form id="ffp">
-
+        <div class="contact-form">
+    <h2>Contact Form</h2>
+    <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required></input>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required></input>
+        <label for="message">Message</label>
+        <textarea id="message"  name="message" rows="4" required></textarea>
+        <br></br>
+        <br></br>
+        </form>
+        </div>
+  {/* <a class="button" href="#" style="--color:#1e9bff;">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    Button
+  </a> */}
+        <button type="button" alt="contactMe" class= "button"  width="612px" height="791px"><a href="SoftwarePortfolio\components\Home.jsx">Click To Submit</a> </button>
+    <div id="letsTalkContainer"></div>
+  
+  
+ 
     
-        <label htmlFor="myFName"> *First Name: </label>
-        <input type="text" id="myFName" name="myFName" required="required" autoFocus /> <br /> <br />
-        
-        <label htmlFor="myLName"> *Last Name: </label>
-        <input type="text" id="myLName" name="myLName" required="required" /> <br /> <br />
-        
-        
-        <label htmlFor="myEmail"> *Email: </label>
-        <input type="email" id="myEmail" name="myEmail" required="required" /> <br /> <br />
-        
-        <input type="submit" className="submit" value="Submit" /> <br />
-            
 
-</form> <br></br>
-     <p><i>Call me on: <strong>888.555.5555 </strong></i></p>
-<p>facebook:www.xyz.facebook.com</p>
-<p>email:xyz@yahoo.com</p> */}
+<script>
+<script src="contact.js" defer></script>
+
+</script>
+
+
+
+    </>
+
+}

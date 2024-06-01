@@ -1,3 +1,4 @@
+//Shane Tawse, #301319122, Date: May 31, 2024
 import HS from '../src/assets/thumbnail_IMG_3041.jpg';
 import PDF from '../src/assets/shane_res.pdf'
 export default function About(){

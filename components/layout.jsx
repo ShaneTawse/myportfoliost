@@ -1,3 +1,4 @@
+//Shane Tawse, #301319122, Date: May 31, 2024
 import React from 'react';
 import { Link } from 'react-router-dom';
 import LM from '../src/assets/Logo Maker 2024_05_25_07_25_07.png';

@@ -1,4 +1,4 @@
-
+//Shane Tawse, #301319122, Date: May 31, 2024
 import '../src/project.css'
 import BUG from '../src/assets/Screenshot 2024-05-29 191704.png';
 import CAT from '../src/assets/Screenshot 2024-05-29 191620.png';

@@ -1,3 +1,4 @@
+//Shane Tawse, #301319122, Date: May 31, 2024
 import Pro from '../src/assets/programming.gif'
 import data from'../src/assets/data-architecture.gif'
 import upTop from '../src/assets/structure.gif'

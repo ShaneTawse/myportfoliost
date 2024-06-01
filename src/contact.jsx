@@ -4,11 +4,11 @@ export default function Contact(){
     return<>
 
     <main>
-    <h1>Contacts Page</h1>
+    <h1 id="page">Contacts Page</h1>
     <p>I'm only an email, phone call or text message away. Lets start a conversation!.  Feel free to contact me for more information</p>
      
-        <h2>My Contact and Socials</h2> 
-        <div class="contact-panel" id="contactPanel">
+        <h2 id="social">My Contact and Socials</h2> 
+        <div id="contactPanel">
             <p>A list of available contact options. Please take the time and reach out</p>
           
                 
@@ -31,19 +31,9 @@ export default function Contact(){
         <br></br>
         </form>
         </div>
-  {/* <a class="button" href="#" style="--color:#1e9bff;">
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    Button
-  </a> */}
+
         <button type="button" alt="contactMe" class= "button"  width="612px" height="791px"><a href="SoftwarePortfolio\components\Home.jsx">Click To Submit</a> </button>
     <div id="letsTalkContainer"></div>
-  
-  
- 
-    
 
 <script>
 <script src="contact.js" defer></script>

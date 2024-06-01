@@ -1,4 +1,31 @@
+#skills{
+    
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5pxrgba(0,0,0,0.1);
+    border-radius: 5px;
+    background-color:#256dea;
+}
 
-  ul {
-    list-style-image: url('../src/assets/programming.gif');
-  }
+
+
+#skills li{
+padding: 10px 0;
+border-bottom:none;
+text-align: center;
+color: aliceblue;
+font-size: medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#skills  li:last-child{
+border-bottom: none;
+
+}
+
+#skills p{
+
+    text-decoration: solid;
+}

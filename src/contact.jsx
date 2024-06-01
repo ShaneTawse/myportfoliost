@@ -32,14 +32,8 @@ export default function Contact(){
         </form>
         </div>
 
-        <button type="button" alt="contactMe" class= "button"  width="612px" height="791px"><a href="SoftwarePortfolio\components\Home.jsx">Click To Submit</a> </button>
+        <button type="button" alt="contactMe" class= "button"  width="612px" height="791px"><a href="./components/about.jsx">Click To Submit</a> </button>
     <div id="letsTalkContainer"></div>
-
-<script>
-<script src="contact.js" defer></script>
-
-</script>
-
 
 
     </>

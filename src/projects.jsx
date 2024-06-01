@@ -71,7 +71,7 @@ export default function Projects(){
                  <img src={PS} alt="project5" className="projectImg" /> 
              </div>
 
-<button className="pipelineBtn" alt="myWork" ><a href="SoftwarePortfolio\components\Home.jsx">See Whats To Come</a></button>
+<button id="pipelineBtn" alt="myWork"><a href="./components/contact">See Whats To Come</a></button>
   
 </section>
 </main>

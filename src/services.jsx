@@ -13,7 +13,7 @@ export default function Services(){
    
    <div id="skills">
         <li>Programming Knowledge&nbsp;<img src= {Pro} alt="comp" className="mySkills" width="50px" height="50px"/></li><br></br>
-        <p>From front-end to Back-end and everything in between.</p>
+        <p>From Front-end to Back-end and everything in between.</p>
         <li>Data-Architecture&nbsp;<img src={data} alt="sql" className="mySkills" width="50px" height="50px"/></li><br></br>
         <p>Structure and maintain databases</p>
         <li>Structured, with Leadership Qualities, and Values Teamwork&nbsp;<img src={upTop} alt="medal" className="mySkills" width="50px" height="50px"/></li><br></br>

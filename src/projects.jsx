@@ -12,7 +12,7 @@ export default function Projects(){
     <h1>Projects Page</h1>
     <br></br>
     <h3>What Skills I Bring</h3>
- <span className="skillDesc">I am a skilled and passionate Software Engineering student with the love for learning. I have a strong understanding of design and a keen eye for detail. I am proficient in HTML, CSS, and JavaScript,C#, Java Programming, Python, SQL and Linux.</span> 
+ <span className="skillDesc">I am a skilled and passionate Software Engineering Tech graduate with a love for learning. I have a strong understanding of design and a keen eye for detail. I am proficient in HTML, CSS, and JavaScript,C#, Java Programming, Python, SQL, Kotlin, and Linux.</span> 
 
       <br></br>
       <section >
